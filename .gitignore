@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# your data and secrets — never commit
+conversations.json
+*.db
+.chatbridge/
+token
+.env
+
+# saved share pages (may contain private chats)
+*.html
+!chat_bridge/static/*.html
+tests/fixtures/private/
